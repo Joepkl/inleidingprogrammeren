@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tamagotchi</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Zorg goed voor </h1><h1 id="naam">Bertje</h1>
+    <img src="images/tamagotchi2middel.svg" alt="beest" id="beestblij">
+
+    <div class="totaal">
+      <div class="eten">
+        <button type="button" id="buttonEten">Geef eten</button>
+        <p class="inlijn">Hoeveelheid koekjes: </p> <p class="inlijn" id="hoeveelheidvoedsel">30</p>
+      </div>
+
+      <div class="vermaak">
+        <button type="button" id="buttonSpelen">Speel met Bertje</button>
+        <p class="inlijn">Blijdschap: </p> <p class="inlijn" id="hoeveelheidblijdschap">10</p>
+      </div>
+    </div>
+
+    <div class="achtergrond">
+      <p class="inlijn">Achtergrond</p>
+      <button type="button" id="buttonAchtergrond1">Light salmon</button>
+      <button type="button" id="buttonAchtergrond2">Wheat</button>
+      <button type="button" id="buttonAchtergrond3">Misty rose</button>
+    </div>
+
+    <div class="namen">
+      <p class="inlijn">Naam</p>
+      <button type="button" id="buttonBertje">Bertje</button>
+      <button type="button" id="buttonJopie">Jopie</button>
+      <button type="button" id="buttonHannes">Hannes</button>
+    </div>
+
+    <audio controls id="audioAaien">
+      <source src="audio/geluid.mp4">
+    </audio>
+
+
+    <script type="text/javascript" src="javascript/tamagotchi.js"></script>
+</body>
+</html>

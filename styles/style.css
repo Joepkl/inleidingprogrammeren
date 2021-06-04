@@ -1,0 +1,132 @@
+#beestblij{
+  display: block;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#buttonEten{
+  background-color: lightgreen;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#buttonSpelen{
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#buttonAchtergrond1{
+  font-size: 15px;
+  background-color: lightsalmon;
+  padding: 2px;
+  width: 100px;
+}
+
+#buttonAchtergrond2{
+  font-size: 15px;
+  background-color: wheat;
+  padding: 2px;
+  width: 100px;
+}
+
+#buttonAchtergrond3{
+  font-size: 15px;
+  background-color: mistyrose;
+  padding: 2px;
+  width: 100px;
+}
+
+#hoeveelheidvoedsel{
+  color: darkgreen;
+}
+
+#hoeveelheidblijdschap{
+  color: blue;
+}
+
+#buttonBertje{
+  font-size: 15px;
+  background-color: lightgrey;
+  padding: 2px;
+  width: 100px;
+}
+
+#buttonJopie{
+  font-size: 15px;
+  background-color: lightgrey;
+  padding: 2px;
+  width: 100px;
+}
+
+#buttonHannes{
+  font-size: 15px;
+  background-color: lightgrey;
+  padding: 2px;
+  width: 100px;
+}
+
+#audioAaien{
+  display: none;
+}
+
+body{
+  background-color: white;
+}
+
+body.achtergrond1{
+  background-color: lightsalmon;
+}
+
+body.achtergrond2{
+  background-color: wheat;
+}
+
+body.achtergrond3{
+  background-color: mistyrose;
+}
+
+div.totaal{
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.achtergrond{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+div.namen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+
+p.inlijn{
+  display: inline;
+}
+
+h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+p{
+  font-size: 20px;
+}
